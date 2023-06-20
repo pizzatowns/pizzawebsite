@@ -20,8 +20,11 @@ export default function NavBar() {
                 width={600}
                 height={100}
                 priority
+
+
               />
             </a>
+            <div>test</div>
           </div>
           <div className=""></div>
         </div>
