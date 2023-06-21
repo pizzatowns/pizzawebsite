@@ -5,7 +5,7 @@ import TopSelling from './TopSelling/TopSelling'
 
 export default function MainContent() {
   return (
-    <div>
+    <div className='flex flex-col'>
         <SlideAds/>
         <CardFeature/>
         <TopSelling/>

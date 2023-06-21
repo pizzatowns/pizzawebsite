@@ -6,12 +6,13 @@ import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
 export default function SlideAds() {
   return (
     <div className="">
-      <div className="relative h-[550px] ">
+      <div className="relative h-[550px]">
         <Image
           className="-z-10"
           src="https://www.pizzaguys.com/slider/assest/images/slide-5.jpg"
           alt="Pizza Towns"
           fill={true}
+          style={{objectFit: "contain"}}
           priority
         />
         <div className="flex h-full justify-between items-center">

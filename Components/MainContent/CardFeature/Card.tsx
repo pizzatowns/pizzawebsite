@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 import React, { useState } from "react";
 
@@ -12,13 +13,14 @@ interface CardProps {
 
 export default function Card({ data }: CardProps) {
   return (
-    <div className="flex flex-col h-[370px] w-[270px] items-center shadow-2xl rounded-xl space-y-1 border-2 border-gray-200">
-      <div className="relative h-[200px] w-[270px] rounded-xl">
+    <div className="flex flex-col h-[370px] w-[256px] items-center shadow-2xl rounded-xl space-y-1 border-2 border-gray-200">
+      <div className="relative h-[200px] w-[256px] rounded-xl">
         <Image
           className="-z-10 rounded-tl-xl rounded-tr-xl"
           src={data.image_link}
           alt="Pizza Towns"
           fill={true}
+          style={{objectFit: "cover"}}
           priority
         />
       </div>
