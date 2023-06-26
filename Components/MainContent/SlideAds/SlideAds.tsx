@@ -6,7 +6,7 @@ import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
 export default function SlideAds() {
   return (
     <div className="">
-      <div className="relative h-[100px] phone:h-[200px] tablet:h-[300px] laptop:h-[550px] desktop:[800px]">
+      <div className="relative h-[100px] phone:h-[200px] tablet:h-[300px] laptop:h-[550px] desktop:h-[800px]">
         <Image
           className="-z-10"
           src="https://www.pizzaguys.com/slider/assest/images/slide-5.jpg"

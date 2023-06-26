@@ -3,7 +3,7 @@ import React from "react";
 
 export default function NavBar() {
   return (
-    <div className="bg-gray-50 p-2">
+    <div className="bg-navbar p-2">
       <div className="flex flex-col tablet:flex-row items-center justify-center tablet:justify-around">
         <div className="relative w-[300px] h-[100px] ">
           <a
