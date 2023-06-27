@@ -30,14 +30,15 @@ export default function Card({ data }: CardProps) {
             className="-z-10 rounded-tl-xl rounded-tr-xl"
             src={data.image_link}
             alt="Pizza Towns"
-            fill={true}
+            fill
             style={{ objectFit: "cover" }}
+            sizes="(max-width: 768px), (max-width: 1200px)"
             priority
           />
         </div>
         <div className="flex flex-col  justify-between items-center">
           <div className="flex flex-col space-y-1 p-2">
-            <span className={`${font_title_responsive}`}>{data.title}</span>
+            <h2 className={`${font_title_responsive}`}>{data.title}</h2>
             <p className={`${font_description_responsive}`}>
               {data.description}
             </p>

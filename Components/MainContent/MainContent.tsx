@@ -1,7 +1,6 @@
 import React from 'react'
 import SlideAds from './SlideAds/SlideAds'
 import CardFeature from './CardFeature/CardFeature'
-import Footer from '../Footer/Footer'
 import PopularItems from '../PopularItems/PopularItems'
 
 export default function MainContent() {
@@ -10,7 +9,6 @@ export default function MainContent() {
         <SlideAds/>
         <CardFeature/>
         <PopularItems/>
-        <Footer/>
     </div>
   )
 }

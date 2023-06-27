@@ -6,9 +6,9 @@ import Script from 'next/script'
 export default function Home() {
   return (
     <main className='overflow-hidden'>
-      <NavBar/>
+      <h1 className='hidden'>Welcome to Pizza Towns</h1>
+
       <MainContent/>
-      {/* <Footer/> */}
     </main>
   )
 }

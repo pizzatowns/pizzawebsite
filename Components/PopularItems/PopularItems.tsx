@@ -48,7 +48,8 @@ export default function PopularItems() {
               src={item.src}
               alt={"Image not found"}
               fill={true}
-              style={{ objectFit: "fill" }}
+              sizes="(max-width: 768px), (max-width: 1200px)"
+              style={{ objectFit: "cover" }}
               priority
             />
             <div className="absolute bottom-0 bg-white/90 w-full rounded-bl-3xl rounded-br-3xl p-3">

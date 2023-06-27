@@ -1,6 +1,7 @@
-"use client"
+"use client";
 import { FacebookSharp, Instagram, LinkedIn } from "@mui/icons-material";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 export default function BodyFooter() {
   return (
@@ -13,6 +14,7 @@ export default function BodyFooter() {
             alt="Pizza Towns"
             fill={true}
             style={{ objectFit: "cover" }}
+            sizes="(max-width: 768px), (max-width: 1200px)"
             priority
           />
         </div>
@@ -42,9 +44,16 @@ export default function BodyFooter() {
             FOLLOW US
           </span>
           <div className="flex flex-row text-[64px] justify-center items-center space-x-3">
-            <FacebookSharp fontSize="inherit"/>
-            <Instagram fontSize="inherit"/>
-            <LinkedIn fontSize="inherit"/>
+            <a
+              href="https://www.facebook.com/people/Pizza-Towns/100094142049637/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FacebookSharp fontSize="inherit" />
+            </a>
+
+            <Instagram fontSize="inherit" />
+            <LinkedIn fontSize="inherit" />
           </div>
         </div>
       </div>
