@@ -7,7 +7,7 @@ export default function BodyFooter() {
   return (
     <div className="flex flex-col w-full justify-center items-center mt-20 mb-20">
       <div className="grid phone:grid-cols-1 tablet:grid-cols-2 laptop:grid-cols-4 gap-5 justify-center items-start">
-        <div className="relative h-[300px] w-[300px] mx-auto">
+        <div className="relative h-[200px] w-[200px] mx-auto">
           <Image
             className=""
             src="/images/logo_black.png"
@@ -18,19 +18,19 @@ export default function BodyFooter() {
             priority
           />
         </div>
-        <div className="flex flex-col items-center space-y-5 text-xl font-medium">
-          <span className="text-rose-900 text-4xl font-bold tracking-wider mb-10">
+        <div className="flex flex-col items-center space-y-2 text-xl font-medium">
+          <h2 className="text-rose-900 text-3xl font-bold tracking-wider mb-5">
             ABOUT
-          </span>
+          </h2>
           <span>About Us</span>
           <span>Careers</span>
           <span>FAQ</span>
           <span>Contact</span>
         </div>
-        <div className="flex flex-col space-y-8 text-xl font-medium">
-          <span className="text-rose-900 text-4xl font-bold tracking-wider mb-10">
+        <div className="flex flex-col space-y-2 text-xl font-medium">
+          <h2 className="text-rose-900 text-3xl font-bold tracking-wider mb-5">
             NEVER MISS A DEAL
-          </span>
+          </h2>
           <span>
             Receive special discounts and exclusive offers <br /> you won't find
             anywhere else!
@@ -39,15 +39,15 @@ export default function BodyFooter() {
             JOIN ECLUB
           </span>
         </div>
-        <div className="flex flex-col items-center space-y-5 text-xl font-medium">
-          <span className="text-rose-900 text-4xl font-bold tracking-wider mb-10">
+        <div className="flex flex-col items-center space-y-2 text-xl font-medium">
+          <h2 className="text-rose-900 text-3xl font-bold tracking-wider mb-5">
             FOLLOW US
-          </span>
+          </h2>
           <div className="flex flex-row text-[64px] justify-center items-center space-x-3">
             <a
               href="https://www.facebook.com/people/Pizza-Towns/100094142049637/"
               target="_blank"
-              rel="noopener noreferrer"
+              aria-label="Facebook"
             >
               <FacebookSharp fontSize="inherit" />
             </a>

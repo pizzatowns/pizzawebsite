@@ -6,7 +6,6 @@ import BodyFooter from './BodyFooter'
 export default function Footer() {
   return (
     <div className='flex flex-col'>
-      <StartOrder/>
       <BodyFooter/>
       <Privacy/>
     </div>

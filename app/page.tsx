@@ -7,7 +7,6 @@ export default function Home() {
   return (
     <main className='overflow-hidden'>
       <h1 className='hidden'>Welcome to Pizza Towns</h1>
-
       <MainContent/>
     </main>
   )
