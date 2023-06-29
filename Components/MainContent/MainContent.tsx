@@ -1,14 +1,14 @@
 import React from 'react'
 import SlideAds from './SlideAds/SlideAds'
 import CardFeature from './CardFeature/CardFeature'
-import TopSelling from './TopSelling/TopSelling'
+import PopularItems from '../PopularItems/PopularItems'
 
 export default function MainContent() {
   return (
-    <div>
+    <div className='flex flex-col'>
         <SlideAds/>
         <CardFeature/>
-        <TopSelling/>
+        <PopularItems/>
     </div>
   )
 }

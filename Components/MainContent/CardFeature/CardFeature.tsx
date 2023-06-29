@@ -32,10 +32,12 @@ export default function CardFeature() {
     },
   ];
   return (
-    <div className="flex flex-row justify-center m-20 space-x-10">
-      {data.map((item, index) => (
-        <Card key={index} data={item} />
-      ))}
+    <div className="mx-auto m-10">
+      <div className="grid justify-center items-center grid-cols-2 laptop:grid-cols-3 desktop:grid-cols-4 gap-4">
+        {data.map((item, index) => (
+          <Card key={index} data={item} />
+        ))}
+      </div>
     </div>
   );
 }
