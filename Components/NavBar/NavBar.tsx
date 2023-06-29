@@ -18,7 +18,7 @@ export default function NavBar() {
           </div>
         </Link>
         <div className="space-x-5 hidden tablet:flex font-bold text-[16px] laptop:text-[24px]">
-          <a className="cursor-pointer hover:text-red-800">MENU</a>
+          <Link href="/menu" className="cursor-pointer hover:text-red-800">MENU</Link>
           <a className="cursor-pointer hover:text-red-800">DEALS</a>
           <a className="cursor-pointer hover:text-red-800">ECLUB</a>
         </div>
